@@ -6,12 +6,12 @@
 <title>Garage Reset | Clarksville TN Garage Cleanout | Fort Campbell PCS Specialists</title>
 <meta name="description" content="Garage Reset clears your entire garage in one day. Full-service cleanout with resell credits applied to your bill. Serving Clarksville TN and Fort Campbell military families.">
 <meta name="keywords" content="garage cleanout Clarksville TN, junk removal Fort Campbell, PCS garage cleanout, garage cleaning service, military moving Clarksville">
-<link rel="canonical" href="https://garagereset.com">
+<link rel="canonical" href="https://garageresethq.com">
 <!-- Open Graph -->
 <meta property="og:title" content="Garage Reset | One Call. One Day. Gone.">
 <meta property="og:description" content="Full garage cleanout in Clarksville TN. We haul, sort, resell, and credit it back. Serving Fort Campbell military families.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://garagereset.com">
+<meta property="og:url" content="https://garageresethq.com">
 <meta property="og:image" content="./assets/og-image.jpg">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
@@ -1947,7 +1947,7 @@ ul, ol { list-style: none; }
         </div>
         <div>
           <p style="font-size:var(--text-sm);font-weight:600;margin-bottom:var(--space-2);">Email</p>
-          <a href="mailto:hello@garagereset.com" class="contact-email">hello@garagereset.com</a>
+          <a href="mailto:hello@garageresethq.com" class="contact-email">hello@garageresethq.com</a>
         </div>
         <div>
           <p style="font-size:var(--text-sm);font-weight:600;margin-bottom:var(--space-3);">Follow Us</p>
@@ -2009,7 +2009,7 @@ ul, ol { list-style: none; }
       <div>
         <p class="footer-links-heading">Contact</p>
         <p class="footer-contact-item">(931) 000-0000</p>
-        <p class="footer-contact-item">hello@garagereset.com</p>
+        <p class="footer-contact-item">hello@garageresethq.com</p>
         <p class="footer-contact-item">Clarksville, Tennessee</p>
         <div class="footer-social">
           <a href="#" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
@@ -2335,66 +2335,5 @@ ul, ol { list-style: none; }
 
 })();
 </script>
-<script data-pplx-inline-edit>
-(function(){
-  if(window===window.top)return;
-  function inlineAll(orig,clone){
-    if(orig.nodeType!==1)return;
-    try{
-      var cs=getComputedStyle(orig);
-      var t='';
-      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
-      clone.style.cssText=t;
-    }catch(e){}
-    var oc=orig.children,cc=clone.children;
-    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
-  }
-  function stripExternal(clone){
-    var imgs=clone.querySelectorAll('img');
-    for(var i=0;i<imgs.length;i++){
-      var s=imgs[i].getAttribute('src');
-      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
-    }
-    var all=clone.querySelectorAll('*');
-    for(var i=0;i<all.length;i++){
-      var st=all[i].style.cssText;
-      if(st&&st.indexOf('url(')>=0){
-        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
-      }
-    }
-  }
-  window.addEventListener('message',function(e){
-    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
-    var scrollX=window.scrollX||window.pageXOffset||0;
-    var scrollY=window.scrollY||window.pageYOffset||0;
-    var w=window.innerWidth,h=window.innerHeight;
-    try{
-      var clone=document.documentElement.cloneNode(true);
-      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
-      for(var i=0;i<rm.length;i++){rm[i].remove();}
-      inlineAll(document.documentElement,clone);
-      stripExternal(clone);
-      var html=new XMLSerializer().serializeToString(clone);
-      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
-        +'<foreignObject width="100%" height="100%">'
-        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
-        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
-        +html+'</div></div></foreignObject></svg>';
-      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
-      var img=new Image();
-      img.onload=function(){
-        var c=document.createElement('canvas');c.width=w;c.height=h;
-        c.getContext('2d').drawImage(img,0,0);
-        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
-      };
-      img.onerror=function(){
-        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
-      };
-      img.src=svgUrl;
-    }catch(err){
-      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
-    }
-  });
-})();
-</script></body>
+</body>
 </html>
